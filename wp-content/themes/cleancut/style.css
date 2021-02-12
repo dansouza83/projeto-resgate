@@ -820,3 +820,17 @@ embed-container {
  width: 100%;
  height: 100%;
 }
+
+.no-padding{
+padding-left: 0% !important;
+padding-right: 0% !important;
+}
+.bg-video-gr{
+ background-color: #4cb745;
+ color: #fff;
+}
+
+.bg-color-org{
+ background-color: #f36220;
+ color: #fff;
+}
