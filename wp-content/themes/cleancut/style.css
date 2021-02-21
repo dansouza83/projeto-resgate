@@ -12,43 +12,41 @@ Version: 1.0
     padding: 0px 20% 0px 20%;
   }
   .como-funciona p {
-    text-align: justify !important;
+    text-align: justify;
   }
   .showcase-como-funciona h1 {
-    font-size: 3em !important;
+    font-size: 3em;
   }
   .showcase-como-funciona p {
-    font-size: 14px !important;
+    font-size: 14px;
   }
   .showcase-content,
   .showcase-como-funciona-content {
-    width: 100% !important;
-    position: absolute !important;
+    width: 100%;
+    position: absolute;
   }
   .showcase-criando-o-futuro-buttons {
-    padding: 100px 0px 0px 40px !important;
+    padding: 100px 0px 0px 40px;
   }
   .showcase-think-tank-criando-o-futuro {
-    background-position-x: -64px !important;
+    background-position-x: -64px;
   }
   .btn {
-    padding: 6px 5px !important;
-    font-size: 12px !important;
+    padding: 6px 5px;
+    font-size: 12px;
   }
   .numbers {
-    background-size: cover !important;
-    padding-top: 5em !important;
+    background-size: cover;
+    padding-top: 5em;
   }
   .call-to-action-subtitle {
-    margin-top: 45px !important;
+    margin-top: 45px;
   }
   .banner-social-buttons {
-    float: left !important;
-    margin-top: 9px !important;
-    padding-top: 3% !important;
+    float: left;
+    margin-top: 9px;
+    padding-top: 3%;
     padding-left: 50px;
-
-
   }
 }
 
@@ -58,28 +56,28 @@ Version: 1.0
     padding: 0px 25% 0px 25%;
   }
   .como-funciona p {
-    text-align: justify !important;
+    text-align: justify;
   }
   .showcase-como-funciona p {
-    font-size: 14px !important;
+    font-size: 14px;
   }
   .showcase-content,
   .showcase-como-funciona-content {
-    width: 100% !important;
-    position: absolute !important;
+    width: 100%;
+    position: absolute;
   }
   .showcase-criando-o-futuro-buttons {
-    padding: 100px 0px 0px 40px !important;
+    padding: 100px 0px 0px 40px;
   }
   .showcase-think-tank-criando-o-futuro {
-    background-position-x: -64px !important;
+    background-position-x: -64px;
   }
   .numbers {
-    background-size: cover !important;
-    padding-top: 20% !important;
+    background-size: cover;
+    padding-top: 7em;
   }
   .call-to-action-subtitle {
-    margin-top: 45px !important;
+    margin-top: 45px;
   }
 }
 
@@ -90,28 +88,28 @@ Version: 1.0
   }
   .como-funciona p,
   .como-funciona b {
-    text-align: justify !important;
+    text-align: justify;
   }
   .showcase-como-funciona p {
-    font-size: 16px !important;
+    font-size: 16px;
   }
   .showcase-content,
   .showcase-como-funciona-content {
-    width: 100% !important;
-    position: absolute !important;
+    width: 100%;
+    position: absolute;
   }
   .showcase-criando-o-futuro-buttons {
-    padding: 100px 0px 0px 40px !important;
+    padding: 100px 0px 0px 40px;
   }
   .showcase-think-tank-criando-o-futuro {
-    background-position-x: -64px !important;
+    background-position-x: -64px;
   }
   .numbers {
-    background-size: cover !important;
-    padding-top: 20% !important;
+    background-size: cover;
+    padding-top: 7em;
   }
   .call-to-action-subtitle {
-    margin-top: 45px !important;
+    margin-top: 45px;
   }
 }
 
@@ -121,11 +119,11 @@ Version: 1.0
     padding: 0px 20% 0px 20%;
   }
   .showcase-criando-o-futuro-buttons {
-    padding: 100px 0px 0px 100px !important;
+    padding: 100px 0px 0px 100px;
   }
   .numbers {
-    background-size: cover !important;
-    padding-top: 20% !important;
+    background-size: cover;
+    padding-top: 20%;
   }
   .call-to-action-subtitle {
     margin-top: 45px !important;
@@ -804,33 +802,133 @@ h3,
 }
 
 embed-container {
- position: relative;
- padding-bottom: 56.25%;
- overflow: hidden;
- max-width: 100%;
- height: auto;
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
 }
 
 .embed-container iframe,
 .embed-container object,
 .embed-container embed {
- position: absolute;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.no-padding{
-padding-left: 0% !important;
-padding-right: 0% !important;
+.no-padding {
+  padding-left: 0% !important;
+  padding-right: 0% !important;
 }
-.bg-video-gr{
- background-color: #4cb745;
- color: #fff;
+.bg-video-gr {
+  background-color: #4cb745;
+  color: #fff;
 }
 
-.bg-color-org{
- background-color: #f36220;
- color: #fff;
+.bg-color-org {
+  background-color: #f36220;
+  color: #fff;
+}
+
+/* MENU */
+
+.menu-header {
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 10;
+}
+
+.menu-header li {
+  display: inline;
+  list-style: url(none) none;
+  float: right;
+}
+
+.menu-header ul {
+  line-height: 31px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+}
+
+.menu-header a,
+.menu-header a:hover {
+  -moz-background-clip: border;
+  -moz-background-inline-policy: continuous;
+  -moz-background-origin: padding;
+  border: medium none;
+  display: block;
+  text-decoration: none;
+}
+
+.menu-header a,
+.menu-header a:visited {
+  color: #37612c;
+  display: block;
+  padding: 0 20px;
+}
+
+.menu-header a:hover,
+.menu-header a:active,
+.current_page_item a,
+#home .on,
+.menu-footer a:hover {
+  text-decoration: underline;
+}
+
+.menu-header li ul {
+  height: auto;
+  left: -999em;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 222px;
+}
+
+.menu-header li li {
+  -moz-background-clip: border;
+  -moz-background-inline-policy: continuous;
+  -moz-background-origin: padding;
+  width: 220px;
+}
+
+.menu-header li li a,
+.menu-header li li a:visited {
+  -moz-background-clip: border;
+  -moz-background-inline-policy: continuous;
+  -moz-background-origin: padding;
+  background: #1e1f21;
+  color: #ffffff;
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+.menu-header li li a:hover,
+.menu-header li li a:active {
+  -moz-background-clip: border;
+  -moz-background-inline-policy: continuous;
+  -moz-background-origin: padding;
+  background: #60625c none repeat scroll 0 0;
+  text-decoration: none;
+}
+
+.menu-header li:hover ul,
+.menu-header li li:hover ul,
+.menu-header li li li:hover ul,
+.menu-header li.sfhover ul,
+.menu-header li li.sfhover ul,
+.menu-header li li li.sfhover ul {
+  left: auto;
+}
+
+/* END MENU */
+
+.custom-logo {
+  max-width: 130px !important;
+  height: auto;
+  margin: 3px;
 }
