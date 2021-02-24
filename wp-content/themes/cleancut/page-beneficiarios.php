@@ -1,6 +1,5 @@
 <?php get_header(); ?>
-
-<section class="showcase-como-funciona">
+<section class="showcase-como-funciona animated fadeInDown animated-3s">
  <div class="container">
   <div class="col-md-12">
    <div class="showcase-como-funciona-content">
@@ -21,6 +20,11 @@
     <?php endif; ?>
 
    </div>
+
+   <div class="arrow bounce">
+    <a class="fa fa-arrow-down fa-2x" href="#"></a>
+   </div>
+
   </div>
  </div>
 </section>

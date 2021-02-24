@@ -1,30 +1,35 @@
 <?php get_header(); ?>
 
-<section class="showcase-como-funciona">
+<section data-aos="fade-in" data-aos-duration="4000" class="showcase-como-funciona">
  <div class="container">
   <div class="col-md-12">
    <div class="showcase-como-funciona-content">
-    <small><?php echo get_theme_mod('', 'TRANSFORMAÇÃO PELA EDUCAÇÃO'); ?></small>
+    <small data-aos="zoom-in" data-aos-duration="1000"><?php echo get_field('small_title'); ?></small>
 
-    <h1><?php echo get_theme_mod('', 'Como Funciona'); ?></h1>
+    <h1 data-aos="zoom-in" data-aos-duration="2000"><?php echo the_title(); ?></h1>
 
-    <p>
+    <p data-aos="zoom-in" data-aos-duration="3000">
      <?php echo get_theme_mod('', 'Promovemos a chance de crianças e jovens ingressarem em um ambiente mais favorável para a educação. Articulamos a captação de bolsas de estudo e apoio complementar para que possam frequentar boas escolas e conquistar uma formação profissional. Assim, os filhos dos beneficiários não precisarão de ajuda de projetos sociais.'); ?>
     </p>
 
     <?php if (get_theme_mod('queroestudar_url', 'https://projetoresgate.org.br/quero-estudar-projeto-resgate/') != '') : ?>
-    <a class="btn btn-default btn-lg"
+    <a data-aos="flip-down" data-aos-duration="3000" class="btn btn-default btn-lg"
      href="<?php echo get_theme_mod('queroestudar_url', 'https://projetoresgate.org.br/quero-estudar-projeto-resgate/'); ?>"
      target="_blank">QUERO ESTUDAR</a>
     <?php endif; ?>
 
     <?php if (get_theme_mod('querocolaborar_url', 'https://projetoresgate.org.br/quero-colaborar-projeto-social-joinville/') != '') : ?>
-    <a class="btn btn-default btn-lg"
+    <a data-aos="flip-up" data-aos-duration="2000" class="btn btn-default btn-lg"
      href="<?php echo get_theme_mod('querocolaborar_url', 'https://projetoresgate.org.br/quero-colaborar-projeto-social-joinville/'); ?>"
      target="_blank">QUERO COLABORAR</a>
     <?php endif; ?>
 
    </div>
+
+   <div class="arrow bounce">
+    <a class="fa fa-arrow-down fa-2x" href="#scrollDown"></a>
+   </div>
+
   </div>
  </div>
 </section>
@@ -48,21 +53,26 @@ $i = 0;  // Counter
  if ($i % 2 != 0) {
   $float = 'pull-left';
   $textAlign = 'text-left';
+  $effect = 'data-aos="fade-left" data-aos-duration="2000" data-aos-offset="300"';
+  $flip = 'data-aos="flip-right" data-aos-duration="3000" data-aos-offset="300"';
  } else {
   $float = 'pull-right';
   $textAlign = 'text-right';
+  $effect = 'data-aos="fade-right" data-aos-duration="2000" data-aos-offset="300"';
+  $flip = 'data-aos="flip-left" data-aos-duration="3000" data-aos-offset="300"';
+
  }
  ?>
-<section>
+<section id="scrollDown">
  <div class="container como-funciona">
-  <div class="row <?php echo $textAlign; ?>">
+  <div <?php echo $effect; ?> class="row <?php echo $textAlign; ?>">
    <div class="col-md-2 col-lg-2 col-sm-2 padtop-3 <?php echo $float; ?>"><?php the_post_thumbnail('como-funciona-img'); ?></div>
    <div class="col-md-10 col-lg-10 col-sm-10 padtop-4"><b><?php the_title(); ?></b>
    <?php the_excerpt(); ?></div>
    </div>
  </div>
 </section>
-<hr>
+<hr data-aos="flip-left" >
 <?php endwhile ?>
 
 

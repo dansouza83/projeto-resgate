@@ -1,15 +1,15 @@
 <?php get_header(); ?>
 
-<section class="showcase-como-funciona">
+<section class="showcase-como-funciona animated fadeInDown animated-3s">
  <div class="container">
   <div class="col-md-12">
    <div class="showcase-como-funciona-content">
-    <small><?php echo get_theme_mod('', 'PESSOAS FÍSICAS E EMPRESAS COLABORAM PARA TRANSFORMAR A EDUCAÇÃO'); ?></small>
+    <?php echo get_field('small_title'); ?>
 
-    <h1><?php echo get_theme_mod('', 'Apoiadores'); ?></h1>
+    <h1><?php echo the_title(); ?></h1>
 
     <p>
-     <?php echo get_theme_mod('', 'Conheça algumas empresas que apoiam o Projeto Resgate em Joinville. Além das empresas, várias pessoas físicas e profissionais transformam nosso projeto em uma realidade.'); ?>
+     <?php echo get_field('subtitle'); ?>
     </p>
 
     <?php if (get_theme_mod('queroestudar_url', 'https://projetoresgate.org.br/quero-estudar-projeto-resgate/') != '') : ?>
@@ -21,6 +21,11 @@
     <?php endif; ?>
 
    </div>
+
+   <div class="arrow bounce">
+    <a class="fa fa-arrow-down fa-2x" href="#"></a>
+   </div>
+
   </div>
  </div>
 </section>

@@ -1,9 +1,9 @@
-/**
-Theme name: Clean Bootstrap Theme
-Author: Daniel Souza
-https://github.com/dansouza83
-Description: Bootstrap Theme
-Version: 1.0
+/*
+Theme Name: CleantCut Projeto Resgate
+Theme URI: https://github.com/dansouza83/projeto-resgate
+Author: Daniel Silva de Souza
+Author URI: https://dansouza.site
+Description: A educational Wordpress Theme
 */
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -96,20 +96,20 @@ Version: 1.0
   .showcase-content,
   .showcase-como-funciona-content {
     width: 100%;
-    position: absolute;
+    position: absolute !important;
   }
   .showcase-criando-o-futuro-buttons {
-    padding: 100px 0px 0px 40px;
+    padding: 100px 0px 0px 40px !important;
   }
   .showcase-think-tank-criando-o-futuro {
-    background-position-x: -64px;
+    background-position-x: -64px !important;
   }
   .numbers {
-    background-size: cover;
-    padding-top: 7em;
+    background-size: cover !important;
+    padding-top: 7em !important;
   }
   .call-to-action-subtitle {
-    margin-top: 45px;
+    margin-top: 45px !important;
   }
 }
 
@@ -119,14 +119,17 @@ Version: 1.0
     padding: 0px 20% 0px 20%;
   }
   .showcase-criando-o-futuro-buttons {
-    padding: 100px 0px 0px 100px;
+    padding: 100px 0px 0px 100px !important;
   }
   .numbers {
-    background-size: cover;
-    padding-top: 20%;
+    background-size: cover !important;
+    padding-top: 7em !important;
   }
   .call-to-action-subtitle {
     margin-top: 45px !important;
+  }
+  .modal-dialog {
+   width: 100% !important;
   }
 }
 
@@ -136,13 +139,10 @@ Version: 1.0
     padding: 0px 2% 0px 4%;
   }
 }
-.numbers {
-  background-size: cover !important;
-  padding-top: 20% !important;
-}
+
 
 body {
-  padding-top: 50px;
+background-image:linear-gradient( to bottom right, #f5c519 47%, #ffdf6d);
 }
 
 body,
@@ -209,17 +209,28 @@ hr {
 }
 
 .showcase,
-.showcase-como-funciona {
+.showcase-como-funciona, .showcase-contato
+ {
   text-align: center;
   animation-duration: 3s;
   color: #fff;
   height: 100vh;
 }
+.showcase-quero-colaborar, .showcase-contato{
+ max-height: 70vh !important;
+}
 
 .showcase h1,
-.showcase-como-funciona h1 {
+.showcase-como-funciona h1
+ {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 5em;
+}
+
+.showcase-contato {
+ text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+
+
 }
 
 .showcase p.lead,
@@ -263,12 +274,13 @@ hr {
 }
 
 .numbers {
-  background-size: cover;
+ background-size: cover !important;
+ padding-top: 7em !important;
 }
-
 .section-apoiadores,
 .section-beneficiarios {
   padding: 5em 5em;
+  background-color: #ffffff;
 }
 
 .section-a {
@@ -596,6 +608,10 @@ h3,
   padding-top: 7%;
 }
 
+.padtop-16rem{
+ padding-top: 16rem;
+}
+
 .padbottom-5 {
   padding-bottom: 5%;
 }
@@ -675,6 +691,9 @@ h3,
 .numbers h3,
 .white-section {
   text-align: center;
+}
+.white-section{
+ background-color:  #f8f8f8 !important;
 }
 .numbers-content {
   padding: 32px 17px;
@@ -783,27 +802,6 @@ h3,
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.text-white {
-  color: white !important;
-}
-
-embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
   overflow: hidden;
   max-width: 100%;
   height: auto;
@@ -819,6 +817,9 @@ embed-container {
   height: 100%;
 }
 
+.text-white {
+ color: white !important;
+}
 .no-padding {
   padding-left: 0% !important;
   padding-right: 0% !important;
@@ -848,7 +849,7 @@ embed-container {
 }
 
 .menu-header ul {
-  line-height: 31px;
+  line-height: 42px;
   list-style-image: none;
   list-style-position: outside;
   list-style-type: none;
@@ -866,9 +867,13 @@ embed-container {
 
 .menu-header a,
 .menu-header a:visited {
-  color: #37612c;
+  color: #ffffff;
   display: block;
   padding: 0 20px;
+  text-shadow: 1px 1px 8px #fff;
+}
+.menu-header-scroll a, .menu-header-scroll a:visited {
+ color: #366432;
 }
 
 .menu-header a:hover,
@@ -901,9 +906,9 @@ embed-container {
   -moz-background-clip: border;
   -moz-background-inline-policy: continuous;
   -moz-background-origin: padding;
-  background: #1e1f21;
+  background: #346230;
   color: #ffffff;
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-weight: normal;
 }
 
@@ -912,7 +917,7 @@ embed-container {
   -moz-background-clip: border;
   -moz-background-inline-policy: continuous;
   -moz-background-origin: padding;
-  background: #60625c none repeat scroll 0 0;
+  background: #254722;
   text-decoration: none;
 }
 
@@ -925,10 +930,129 @@ embed-container {
   left: auto;
 }
 
+/* Nav / Navbar Styles
+===================================*/
+.navbar {
+  background-image: linear-gradient( to bottom right, #efd53d 7%, transparent 50%, transparent );
+  background-color: transparent;
+  border-bottom: none;
+  padding: 30px 0;
+  transition-duration: 0.6s;
+  text-transform: uppercase;
+  color: #ffffff;
+  /* font-size: 12px; */
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: #183532;
+}
+
+/* jQuery Styles
+===================================*/
+.navbar-scroll {
+  background: #ffffff;
+  padding: 0;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  transition-duration: 0.6s;
+}
+.nav-dropdown-scroll {
+  background: #e7eaea;
+  box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+ max-height: 340px;
+ /* background: #f4c618; */
+}
+
 /* END MENU */
 
-.custom-logo {
-  max-width: 130px !important;
+.custom-logo img {
+  max-width: 180px;
   height: auto;
   margin: 3px;
+}
+.custom-logo-scroll img {
+  max-width: 130px;
+  height: auto;
+  margin: 3px;
+}
+
+/* MODAL */
+
+.modal {
+ padding: 0 !important;
+}
+
+.modal .modal-dialog {
+ width: 100%;
+ height: 100vh;
+ margin: 0;
+ padding: 0;
+}
+
+.modal .modal-content {
+
+ border: 0 none;
+ border-radius: 0;
+ box-shadow: none;
+}
+.modal-footer {
+ padding: 15px;
+ text-align: center;
+}
+
+iframe
+{
+ display: block;
+ width: 100%;
+ height: 80vh;
+ border: none;
+ overflow-y: auto;
+ overflow-x: hidden;
+ margin-top: 11em;
+}
+
+body:not(.modal-open){
+ padding-right: 0px !important;
+}
+
+/* END MODAL */
+
+.page-id-37 body {
+ overflow-y: hidden; /* Hide vertical scrollbar */
+ overflow-x: hidden;
+}
+
+.logo-slider{
+ background: #ffffff !important;
+}
+
+/* ARROW  */
+
+.arrow {
+ text-align: center;
+ margin: 8% 0;
+ color: #ffffff;
+}
+.bounce {
+ -moz-animation: bounce 2s infinite;
+ -webkit-animation: bounce 2s infinite;
+ animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {
+   transform: translateY(0);
+ }
+ 40% {
+   transform: translateY(-30px);
+ }
+ 60% {
+   transform: translateY(-15px);
+ }
+}
+
+.fa {
+ color: #ffffff;
 }

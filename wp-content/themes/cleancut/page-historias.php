@@ -16,30 +16,31 @@
  <div class="container">
   <div class="col-md-12">
    <div class="showcase-como-funciona-content">
-    <small><?php echo get_theme_mod('', 'HISTÓRIAS DE TRANSFORMAÇÃO PELA EDUCAÇÃO EM JOINVILLE
+    <div data-aos="zoom-in" data-aos-duration="1000" ><?php echo get_field('small_title'); ?></div>
 
-'); ?></small>
+    <h1 data-aos="zoom-in" data-aos-duration="1000"><?php echo the_title(); ?></h1>
 
-    <h1><?php echo get_theme_mod('', 'Histórias'); ?></h1>
-
-    <p>
-     <?php echo get_theme_mod('', 'As decisões que as pessoas tomam é o que faz o seu caminho, e os valores é que determinam as escolhas. Transmitimos os valores para apoiar as decisões dos jovens.'); ?>
-    </p>
+     <p data-aos="zoom-in" data-aos-duration="2000"><?php echo the_field('subtitle'); ?></p>
 
     <?php if (get_theme_mod('queroestudar_url', 'https://projetoresgate.org.br/quero-estudar-projeto-resgate/') != '') : ?>
-     <a class="btn btn-default btn-lg" href="<?php echo get_theme_mod('queroestudar_url', 'https://projetoresgate.org.br/quero-estudar-projeto-resgate/'); ?>" target="_blank">QUERO ESTUDAR</a>
+     <a data-aos="zoom-in" data-aos-duration="3000" class="btn btn-default btn-lg" href="<?php echo get_theme_mod('queroestudar_url', 'https://projetoresgate.org.br/quero-estudar-projeto-resgate/'); ?>" target="_blank">QUERO ESTUDAR</a>
     <?php endif; ?>
 
     <?php if (get_theme_mod('querocolaborar_url', 'https://projetoresgate.org.br/quero-colaborar-projeto-social-joinville/') != '') : ?>
-     <a class="btn btn-default btn-lg" href="<?php echo get_theme_mod('querocolaborar_url', 'https://projetoresgate.org.br/quero-colaborar-projeto-social-joinville/'); ?>" target="_blank">QUERO COLABORAR</a>
+     <a data-aos="zoom-in" data-aos-duration="3000" class="btn btn-default btn-lg" href="<?php echo get_theme_mod('querocolaborar_url', 'https://projetoresgate.org.br/quero-colaborar-projeto-social-joinville/'); ?>" target="_blank">QUERO COLABORAR</a>
     <?php endif; ?>
 
    </div>
+
+   <div class="arrow bounce">
+    <a class="fa fa-arrow-down fa-2x bottom" data-target="scrollDown" href="#scrollDown"></a>
+   </div>
+
   </div>
  </div>
 </section>
 
-<section class="margin-top-2 margin-bottom-2">
+<section id="#scrollDown" class="margin-top-2 margin-bottom-2">
  <div class="container">
   <div class="col-md-7">
 
@@ -296,22 +297,22 @@
 
   <div class="col-md-5 historias-accordion-img">
   <?php if (get_field('historias_image_1', 27)) { ?>
-  <img src="<?php the_field('historias_image_1', 27); ?>" />
+  <img data-aos-offset="300" data-aos="fade-left" data-aos-duration="500" src="<?php the_field('historias_image_1', 27); ?>" />
   <?php }; ?>
   <?php if (get_field('historias_image_2', 27)) { ?>
-  <img src="<?php the_field('historias_image_2', 27); ?>" />
+  <img data-aos-offset="100" data-aos="fade-left" data-aos-duration="1000" src="<?php the_field('historias_image_2', 27); ?>" />
   <?php }; ?>
   <?php if (get_field('historias_image_3', 27)) { ?>
-  <img src="<?php the_field('historias_image_3', 27); ?>" />
+  <img data-aos-offset="100" data-aos="fade-left" data-aos-duration="1500" src="<?php the_field('historias_image_3', 27); ?>" />
   <?php }; ?>
   <?php if (get_field('historias_image_4', 27)) { ?>
-  <img src="<?php the_field('historias_image_4', 27); ?>" />
+  <img data-aos-offset="100" data-aos="fade-left" data-aos-duration="2000" src="<?php the_field('historias_image_4', 27); ?>" />
   <?php }; ?>
   <?php if (get_field('historias_image_5', 27)) { ?>
-  <img src="<?php the_field('historias_image_5', 27); ?>" />
+  <img data-aos-offset="100" data-aos="fade-left" data-aos-duration="2500" src="<?php the_field('historias_image_5', 27); ?>" />
   <?php }; ?>
   <?php if (get_field('historias_image_6', 27)) { ?>
-  <img src="<?php the_field('historias_image_6', 27); ?>" />
+  <img data-aos-offset="100" data-aos="fade-left" data-aos-duration="3000" src="<?php the_field('historias_image_6', 27); ?>" />
   <?php }; ?>
   </div>
 
