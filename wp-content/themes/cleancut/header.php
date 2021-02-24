@@ -49,8 +49,8 @@ $(window).on('resize', function () {
  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
  <!-- AOS EFFECTS -->
- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
- <!-- <link rel="stylesheet" href="<?php // bloginfo('template_url'); ?>/assets/css/aos.css"> -->
+ <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+ <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/aos.css">
 
  <style>
  /* Defaults */

@@ -554,7 +554,6 @@ h3,
 
 .sub-banner-content {
   /* padding: 100px 0; */
-  background: url(../img/banner.jpg) no-repeat center center;
   background-size: cover;
   animation-duration: 3s;
 }

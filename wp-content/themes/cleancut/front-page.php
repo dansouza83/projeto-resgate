@@ -1,6 +1,4 @@
 <?php get_header(); ?>
-
-
 <!-- SHOWCASE -->
 
 <section data-aos="fade-in-down" data-aos-duration="3000" class="row showcase">
@@ -26,8 +24,7 @@
     <?php if (get_theme_mod('querocolaborar_url', 'https://projetoresgate.org.br/quero-colaborar-projeto-social-joinville/') != '') : ?>
     <a data-aos="fade-up-left" data-aos-duration="1500" data-target="#quero_colaborar_modal" data-toggle="modal"
      class="btn btn-default btn-lg" href="<?php echo get_theme_mod('querocolaborar_url', '#quero_colaborar_modal'); ?>"
-     target="_blank">QUERO
-     COLABORAR</a>
+     target="_blank">QUERO COLABORAR</a>
     <?php endif; ?>
     <div data-aos-offset="50" data-aos="fade-in-up" data-aos-duration="2500" class="arrow bounce">
      <a id="arrow" class="fa fa-arrow-down fa-2x" href="#scrollDown" data-target="scrollDown"></a>
@@ -37,6 +34,8 @@
   </div>
  </div>
 </section>
+
+
 
 <!-- SUB BANNER -->
 
