@@ -156,7 +156,8 @@
    class="box-content col-md-3 col-sm-6 col-xs-12">
    <i class="<?php echo get_theme_mod('white_section_1_icon', 'fa fa-4x fa-user'); ?>"></i>
    <h4><?php echo get_theme_mod('white_section_1', 'JOVEM'); ?></h4>
-   <hr>
+   <div><hr data-aos="flip-right" data-aos-duration="3000" data-aos-delay="100"></div>
+
    <h6>
     <?php echo get_theme_mod('white_section_heading_1', 'Educação e desenvolvimento pessoal para alcançar um sonho.'); ?>
    </h6>

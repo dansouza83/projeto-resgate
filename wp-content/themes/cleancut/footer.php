@@ -5,9 +5,8 @@
 
 <?php get_template_part('content-modal','page'); ?>
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/assets/js/jquery-1.12.3.min.js"></script>
-<script src="<?php bloginfo('template_url'); ?>/assets/js/jquery-2.1.3.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/assets/js/bootstrap.js"></script>
 
 <!-- AOS effects -->

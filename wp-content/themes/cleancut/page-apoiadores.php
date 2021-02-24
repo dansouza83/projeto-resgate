@@ -1,23 +1,23 @@
 <?php get_header(); ?>
 
-<section class="showcase-como-funciona animated fadeInDown animated-3s">
+<section data-aos="fade-down" data-aos-duration="3000" data-aos-delay="300" class="showcase-como-funciona">
  <div class="container">
   <div class="col-md-12">
    <div class="showcase-como-funciona-content">
     <?php echo get_field('small_title'); ?>
 
-    <h1><?php echo the_title(); ?></h1>
+    <h1 data-aos="zoom-out" data-aos-duration="3000" ><?php echo the_title(); ?></h1>
 
-    <p>
+    <p data-aos="zoom-in" data-aos-duration="2000">
      <?php echo get_field('subtitle'); ?>
     </p>
 
     <?php if (get_theme_mod('queroestudar_url', 'https://projetoresgate.org.br/quero-estudar-projeto-resgate/') != '') : ?>
-     <a class="btn btn-default btn-lg" href="<?php echo get_theme_mod('queroestudar_url', 'https://projetoresgate.org.br/quero-estudar-projeto-resgate/'); ?>" target="_blank">QUERO ESTUDAR</a>
+     <a data-aos="flip-up" data-aos-duration="2000" class="btn btn-default btn-lg" href="<?php echo get_theme_mod('queroestudar_url', 'https://projetoresgate.org.br/quero-estudar-projeto-resgate/'); ?>" target="_blank">QUERO ESTUDAR</a>
     <?php endif; ?>
 
     <?php if (get_theme_mod('querocolaborar_url', 'https://projetoresgate.org.br/quero-colaborar-projeto-social-joinville/') != '') : ?>
-     <a class="btn btn-default btn-lg" href="<?php echo get_theme_mod('querocolaborar_url', 'https://projetoresgate.org.br/quero-colaborar-projeto-social-joinville/'); ?>" target="_blank">QUERO COLABORAR</a>
+     <a data-aos="flip-down" data-aos-duration="1000" class="btn btn-default btn-lg" href="<?php echo get_theme_mod('querocolaborar_url', 'https://projetoresgate.org.br/quero-colaborar-projeto-social-joinville/'); ?>" target="_blank">QUERO COLABORAR</a>
     <?php endif; ?>
 
    </div>

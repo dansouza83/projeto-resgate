@@ -18,17 +18,20 @@
     </a>
     </div>
    </div>
-   <div data-aos="fade-left" data-aos-duration="3000"  id="navbar" class="navbar-collapse collapse">
+   <div data-aos="fade-left" data-aos-duration="2000"  id="navbar" class="navbar-collapse collapse">
     <?php
     wp_nav_menu(
      array(
-      'main-menu' => 'Main Menu',
+      'theme_location' => 'main-menu',
       'container_class' => 'menu-header'
      )
     );
     ?>
    </div>
    <!--/.nav-collapse -->
+
   </div>
+
  </nav>
+
  </div>

@@ -1,9 +1,7 @@
 
-<?php
-get_header();
-$query = new WP_Query( array( 'category__in' => array(1) ) );
-// the query
-// $query = new WP_Query( $args ); ?>
+<?php get_header(); ?>
+
+<?php $query = new WP_Query( array( 'category' => array(1) ) ); ?>
 
 <?php if ( $query->have_posts() ) : ?>
 

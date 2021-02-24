@@ -1,4 +1,4 @@
-import "../css/style.css"
+import 'assets/css/style.scss';
 
 // Our modules / classes
 // import MobileMenu from "./modules/MobileMenu"
@@ -11,6 +11,6 @@ import "../css/style.css"
 
 
 // Allow new JS and CSS to load in browser without a traditional page refresh
-if (module.hot) {
-  module.hot.accept()
-}
+// if (module.hot) {
+//   module.hot.accept()
+// }

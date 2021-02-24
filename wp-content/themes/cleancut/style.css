@@ -842,9 +842,8 @@ h3,
 .menu-header li {
   display: inline;
   list-style: url(none) none;
-  float: right;
+  float: left;
 }
-
 .menu-header ul {
   line-height: 42px;
   list-style-image: none;

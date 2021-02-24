@@ -1,11 +1,16 @@
 <?php get_header(); ?>
 <section>
- <div class="container padtop-15 padbottom-15">
-  <div class="col-md-8">
+ <div class="container padtop-16rem padbottom-15">
+  <div data-aos="fade-right" data-aos-duration="2000" class="col-md-8">
    <div role="main" id="contato-8316da49375f0054958a"></div>
   </div>
-  <div class="col-md-4">
-   <?php echo the_post_thumbnail(); ?><br>
+  <div data-aos="fade-left" data-aos-duration="2000"  class="col-md-4">
+  <?php
+if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+the_post_thumbnail( 'medium' );
+}
+?>
+  <br>
    <?php echo the_field('side_text'); ?>
   </div>
  </div>
