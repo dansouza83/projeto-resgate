@@ -1,3 +1,4 @@
+ <div class="bootstrap-iso">
  <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
    <div class="navbar-header">
@@ -7,6 +8,7 @@
      <span class="icon-bar"></span>
      <span class="icon-bar"></span>
     </button>
+    <div data-aos="fade-down" data-aos-duration="3000" >
     <a class="navbar-brand" href="<?php bloginfo('url'); ?>">
      <?php if (has_custom_logo()) : ?>
       <?php the_custom_logo(); ?>
@@ -14,13 +16,13 @@
       <h1><?php bloginfo('name'); ?></h1>
      <?php endif; ?>
     </a>
+    </div>
    </div>
-   <div id="navbar" class="navbar-collapse collapse">
+   <div data-aos="fade-left" data-aos-duration="3000"  id="navbar" class="navbar-collapse collapse">
     <?php
     wp_nav_menu(
      array(
       'main-menu' => 'Main Menu',
-      'footer-menu' => 'Footer Menu',
       'container_class' => 'menu-header'
      )
     );
@@ -29,3 +31,4 @@
    <!--/.nav-collapse -->
   </div>
  </nav>
+ </div>

@@ -1,4 +1,6 @@
-<div class="<?php echo $section_class; ?>">
+<?php get_header(); ?>
+<section data-aos="fade-up" data-aos-duration="2000" class="padtop-16rem">
+ <div  class="<?php echo $section_class; ?>">
   <div class="container">
    <div class="row">
     <div class="<?php echo $left_class; ?>">
@@ -20,7 +22,6 @@
        foreach ($categories as $category) {
         $output .= '<a href="' . get_category_link($category->term_id) . '">' . $category->cat_name . '</a>' . $separator;
         //$output .= $category->cat_name . $separator;
-
        }
       }
       echo trim($output, $separator);
@@ -32,6 +33,14 @@
      </a>
     </div>
     <div class="<?php echo $right_class; ?>">
+
+
+     <?php if ( has_post_thumbnail() ) {
+    the_post_thumbnail();
+    } else { ?>
+     <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/images/pessoas-vetor.png" alt="<?php the_title(); ?>" />
+     <?php } ?>
+
      <?php the_post_thumbnail('full', array(
       'class' => $img_class
      )); ?>
@@ -39,3 +48,4 @@
    </div>
   </div>
  </div>
+</section>
