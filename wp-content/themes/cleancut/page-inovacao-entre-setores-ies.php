@@ -1,32 +1,5 @@
 <?php get_header(); ?>
-<section class="showcase-como-funciona animated fadeInDown">
- <div class="container">
-  <div class="col-md-12">
-   <div class="showcase-como-funciona-content animated fadeInUp animated-3s">
-    <?php echo the_field('small_title'); ?>
-
-    <h1><?php echo the_field('title'); ?></h1>
-
-    <p>
-     <?php echo the_field('subtitle'); ?>
-    </p>
-
-    <?php if (get_theme_mod('queroestudar_url', 'https://projetoresgate.org.br/quero-estudar-projeto-resgate/') != '') : ?>
-    <a class="btn btn-default btn-lg"
-     href="<?php echo get_theme_mod('queroestudar_url', 'https://projetoresgate.org.br/quero-estudar-projeto-resgate/'); ?>"
-     target="_blank">QUERO ESTUDAR</a>
-    <?php endif; ?>
-
-    <?php if (get_theme_mod('querocolaborar_url', 'https://projetoresgate.org.br/quero-colaborar-projeto-social-joinville/') != '') : ?>
-    <a class="btn btn-default btn-lg"
-     href="<?php echo get_theme_mod('querocolaborar_url', 'https://projetoresgate.org.br/quero-colaborar-projeto-social-joinville/'); ?>"
-     target="_blank">QUERO COLABORAR</a>
-    <?php endif; ?>
-
-   </div>
-  </div>
- </div>
-</section>
+<?php get_template_part('template-parts/header/showcase'); ?>
 <section class="animated fadeInUp">
  <div class="container">
   <div class="row">

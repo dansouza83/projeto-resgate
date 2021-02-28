@@ -58,7 +58,7 @@ function cleancut_customize_register($wp_customize)
 
  // Image Setting
  $wp_customize->add_setting('showcase_image', array(
-  'default'   => get_bloginfo('template_directory') . '/img/showcase.jpg',
+  'default'   => get_bloginfo('template_directory') . '/assets/images/showcase.jpg',
   'type'      => 'theme_mod'
  ));
 
@@ -141,7 +141,7 @@ $wp_customize->add_control('querocolaborar_url', array(
 
  // Sub-Banner Image Setting.
  $wp_customize->add_setting('sub_banner_image', array(
-  'default'   => get_bloginfo('template_directory') . '/img/banner.jpg',
+  'default'   => get_bloginfo('template_directory') . '/assets/images/banner.jpg',
   'type'      => 'theme_mod'
  ));
 
@@ -181,7 +181,7 @@ $wp_customize->add_control('querocolaborar_url', array(
 
  // Sub-banner Image 2 Setting
  $wp_customize->add_setting('sub_banner_image2', array(
-  'default'   => get_bloginfo('template_directory') . '/img/showcase.jpg',
+  'default'   => get_bloginfo('template_directory') . '/assets/images/showcase.jpg',
   'type'      => 'theme_mod'
  ));
 
@@ -247,7 +247,7 @@ $wp_customize->add_control('querocolaborar_url', array(
 
  // Call to Action Image Setting.
  $wp_customize->add_setting('call_to_action', array(
-  'default'   => get_bloginfo('template_directory') . '/img/banner.jpg',
+  'default'   => get_bloginfo('template_directory') . '/assets/images/banner.jpg',
   'type'      => 'theme_mod'
  ));
 
@@ -336,7 +336,7 @@ $wp_customize->add_control('querocolaborar_url', array(
 
  // Numbers Image Setting
  $wp_customize->add_setting('numbers_image', array(
-  'default'   => get_bloginfo('template_directory') . '/img/sonhos-viabilizados-wrappers.jpg',
+  'default'   => get_bloginfo('template_directory') . '/assets/images/sonhos-viabilizados-wrappers.jpg',
   'type'      => 'theme_mod'
  ));
 
@@ -560,7 +560,7 @@ $wp_customize->add_control('querocolaborar_url', array(
 
  // Numbers Image Setting
  $wp_customize->add_setting('white_section_image', array(
-  'default'   => get_bloginfo('template_directory') . '/img/sonhos-viabilizados-wrappers.jpg',
+  'default'   => get_bloginfo('template_directory') . '/assets/images/sonhos-viabilizados-wrappers.jpg',
   'type'      => 'theme_mod'
  ));
 
@@ -806,7 +806,7 @@ $wp_customize->add_control('querocolaborar_url', array(
 
  // Logo 1 Setting
  $wp_customize->add_setting('slider_logo_image_1', array(
-  'default'   => get_bloginfo('template_directory') . '/img/1-embraco.png',
+  'default'   => get_bloginfo('template_directory') . '/assets/images/1-embraco.png',
   'type'      => 'theme_mod'
  ));
 
@@ -820,7 +820,7 @@ $wp_customize->add_control('querocolaborar_url', array(
 
  // Logo 2 Setting
  $wp_customize->add_setting('slider_logo_image_2', array(
-  'default'   => get_bloginfo('template_directory') . '/img/2-whirpool.png',
+  'default'   => get_bloginfo('template_directory') . '/assets/images/2-whirpool.png',
   'type'      => 'theme_mod'
  ));
 
@@ -834,7 +834,7 @@ $wp_customize->add_control('querocolaborar_url', array(
 
  // Logo 3 Setting
  $wp_customize->add_setting('slider_logo_image_3', array(
-  'default'   => get_bloginfo('template_directory') . '/img/3-somos01.png',
+  'default'   => get_bloginfo('template_directory') . '/assets/images/3-somos01.png',
   'type'      => 'theme_mod'
  ));
 
@@ -848,7 +848,7 @@ $wp_customize->add_control('querocolaborar_url', array(
 
  // Logo 4 Setting
  $wp_customize->add_setting('slider_logo_image_4', array(
-  'default'   => get_bloginfo('template_directory') . '/img/4-neogrid.png',
+  'default'   => get_bloginfo('template_directory') . '/assets/images/4-neogrid.png',
   'type'      => 'theme_mod'
  ));
 
@@ -862,7 +862,7 @@ $wp_customize->add_control('querocolaborar_url', array(
 
  // Logo 5 Setting
  $wp_customize->add_setting('slider_logo_image_5', array(
-  'default'   => get_bloginfo('template_directory') . '/img/5-gidion.png',
+  'default'   => get_bloginfo('template_directory') . '/assets/images/5-gidion.png',
   'type'      => 'theme_mod'
  ));
 
@@ -876,7 +876,7 @@ $wp_customize->add_control('querocolaborar_url', array(
 
  // Logo 6 Setting
  $wp_customize->add_setting('slider_logo_image_6', array(
-  'default'   => get_bloginfo('template_directory') . '/img/8-transtusa.png',
+  'default'   => get_bloginfo('template_directory') . '/assets/images/8-transtusa.png',
   'type'      => 'theme_mod'
  ));
 
@@ -981,7 +981,7 @@ $wp_customize->add_section('bottom_banner', array(
 
 // Bottom Banner Image Setting
 $wp_customize->add_setting('bottom_banner_image', array(
- 'default'   => get_bloginfo('template_directory') . '/img/banner.jpg',
+ 'default'   => get_bloginfo('template_directory') . '/assets/images/banner.jpg',
  'type'      => 'theme_mod'
 ));
 
@@ -1016,7 +1016,7 @@ $wp_customize->add_control('bottom_banner_heading', array(
 
 // // Image Setting
 // $wp_customize->add_setting('showcase_como_funciona_image', array(
-//  'default'   => get_bloginfo('template_directory') . '/img/banner-como-funciona-projeto-resgate.jpg',
+//  'default'   => get_bloginfo('template_directory') . '/assets/images/banner-como-funciona-projeto-resgate.jpg',
 //  'type'      => 'theme_mod'
 // ));
 

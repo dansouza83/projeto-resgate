@@ -1,6 +1,6 @@
 <?php
 // Add Customizer Functionality
-require get_template_directory() . '/inc/customizer.php ';
+require __DIR__ . '/inc/customizer.php ';
 
 
 

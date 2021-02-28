@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR" <?php language_attributes();  ?>>
+<html <?php language_attributes(); ?> >
 
 <head>
  <!-- META  -->
@@ -11,7 +11,7 @@
  <!--     Define a description of your web page -->
  <meta name="description" content="Educação e desenvolvimento pessoal para transformação. Articulação entre sociedade, empresas e instituições, onde um potencializa o trabalho do outro." />
  <!--     Refresh document every 30 seconds -->
- <meta http-equiv="refresh" content="30">
+ <!-- <meta http-equiv="refresh" content="30"> -->
  <meta name="subject" content="Organização Não Governamental">
  <meta name="copyright" content="Projeto Resgate">
  <meta name="robots" content="index,follow, noindex, nofollow, none" />
