@@ -1,0 +1,61 @@
+@import './variables';
+
+.page .post-thumbnail img {
+	width: 100%;
+	margin-bottom: 25px;
+	height: auto;
+}
+
+.post {
+	float: left;
+	width: 100%;
+}
+
+.post-desc {
+	float: left;
+	padding: 90px 90px 30px;
+	width: 50%;
+}
+
+.post-desc > span {
+	float: left;
+	font-size: 12px;
+	letter-spacing: 4px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.post-desc h3 {
+	color: #444444;
+	float: left;
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+.post-img {
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
+.blog-post {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.blog-post img,
+.single-blog-post img {
+	margin: auto;
+	width: 100%;
+}
+
+.postsbycategory li {
+	padding-bottom: 5px;
+}
+.postsbycategory img {
+	margin-right: 5px;
+}

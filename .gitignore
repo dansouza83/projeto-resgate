@@ -105,3 +105,7 @@ dist
 
 # My Images
 wp-content/themes/cleancut/assets/images/**
+
+# wp-folders
+wp-admin/**
+wp-includes

@@ -1,0 +1,183 @@
+@import './variables';
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	body{
+		min-width: 103%;
+	}
+	.align-center-div {
+		padding: 0px 10% 0px 10%;
+	}
+	.como-funciona p {
+		text-align: justify;
+	}
+	.showcase-como-funciona h1 {
+		font-size: 3em;
+	}
+	.showcase-como-funciona p {
+		font-size: 14px;
+	}
+	.showcase-content,
+	.showcase-como-funciona-content {
+		width: 100%;
+		position: absolute;
+	}
+	.showcase-criando-o-futuro-buttons {
+		padding: 100px 0px 0px 40px;
+	}
+	.showcase-think-tank-criando-o-futuro {
+		background-position-x: -64px;
+	}
+	.btn {
+		padding: 6px 5px;
+		font-size: 12px;
+	}
+	.numbers {
+		background-size: cover;
+		padding-top: 5em;
+	}
+	.call-to-action-subtitle {
+		margin-top: 45px;
+	}
+	.banner-social-buttons {
+		float: left;
+		margin-top: 9px;
+		padding-top: 3%;
+		padding-left: 50px;
+	}
+	.call-to-action {
+		height: 255px !important;
+	}
+	.space {
+		display: none;
+	}
+	.numbers h4 {
+		color: $textNumbers;
+	}
+	.navbar,
+	.navbar-fixed-top
+	.navbar-collapse {
+		background-color: $navbarBgColorMobile !important;
+		color: $navbarTextColorMobile;
+	}
+	.navbar-toggle {
+		position: relative;
+		float: right;
+		padding: 9px 10px;
+		margin-top: 14px;
+		margin-right: 106px;
+		margin-bottom: 8px;
+}
+	.navbar-inverse .navbar-collapse,
+	.navbar-inverse .navbar-form {
+		border-color: transparent !important;
+	}
+	.menu-header li {
+		float: none !important;
+		// text-align: center !important;
+	}
+	.menu-header a, .menu-header a:visited {
+		color: $textGreen;
+	}
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.align-center-div {
+		padding: 0px 25% 0px 25%;
+	}
+	.como-funciona p {
+		text-align: justify;
+	}
+	.showcase-como-funciona p {
+		font-size: 14px;
+	}
+	.showcase-content,
+	.showcase-como-funciona-content {
+		width: 100%;
+		position: absolute;
+	}
+	.showcase-criando-o-futuro-buttons {
+		padding: 100px 0px 0px 40px;
+	}
+	.showcase-think-tank-criando-o-futuro {
+		background-position-x: -64px;
+	}
+	.numbers {
+		background-size: cover;
+		padding-top: 7em;
+	}
+	.call-to-action-subtitle {
+		margin-top: 45px;
+	}
+	.navbar-inverse .navbar-collapse,
+	.navbar-inverse .navbar-form {
+		border-color: transparent;
+		background: $navBarInvColap;
+	}
+	.navbar-toggle {
+		margin-right: 121px !important;
+	}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ .white-section{
+  .box-content{
+   width:150px;
+  }
+ }
+	.como-funciona p,
+	.como-funciona b {
+		text-align: justify;
+	}
+	.showcase-como-funciona p {
+		font-size: 16px;
+	}
+	.showcase-content,
+	.showcase-como-funciona-content {
+		width: 100%;
+		position: absolute !important;
+	}
+	.showcase-criando-o-futuro-buttons {
+		padding: 100px 0px 0px 40px !important;
+	}
+	.showcase-think-tank-criando-o-futuro {
+		background-position-x: -64px !important;
+	}
+	.numbers {
+		background-size: cover !important;
+		padding-top: 7em !important;
+	}
+	.call-to-action-subtitle {
+		margin-top: 45px !important;
+	}
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.align-center-div {
+		padding: 0px 20% 0px 20%;
+	}
+	.showcase-criando-o-futuro-buttons {
+		padding: 100px 0px 0px 100px !important;
+	}
+	.numbers {
+		background-size: cover !important;
+		padding-top: 7em !important;
+	}
+	.call-to-action-subtitle {
+		margin-top: 45px !important;
+	}
+	.modal-dialog {
+		width: 100% !important;
+	}
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.align-center-div {
+		padding: 0px 2% 0px 4%;
+	}
+}

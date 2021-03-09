@@ -71,7 +71,7 @@
     <?php echo get_theme_mod('call_to_action_heading', 'Formar um jovem para vida, não há preço.'); ?></h1>
   </div>
 
-  <h4 data-aos="fade-down" data-aos-duration="2000" class="text-center text-white call-to-action-subtitle">
+  <h4 data-aos="fade-down" data-aos-duration="2000" class="text-center text-white call-to-action-subtitle padtop-2">
    <?php echo get_theme_mod('call_to_action_heading_small', 'Histórias de superação e colaboração que mudam vidas'); ?>
   </h4>
 
@@ -82,12 +82,12 @@
   </div>
 
  </div>
-
+ <div class="space"></div>
 </section>
 
 <!-- NUMBERS SECTION -->
 
-<section class="container-fluid numbers padtop-5 padbottom-5">
+<section class=" text-white container-fluid numbers padtop-5 padbottom-5">
  <div class="container">
   <h1 data-aos-offset="100" data-aos-anchor-placement="center-bottom" data-aos="flip-up" data-aos-duration="2000"
    class="text-center col-xs-12">
@@ -141,8 +141,7 @@
 <section class="container-fluid center-block white-section padtop-5 padbottom-5">
 
  <div class="container">
-  <h1 data-aos-anchor-placement="center-bottom" data-aos="fade-in" data-aos-duration="1500"
-   class="text-center col-xs-12">
+  <h1 data-aos-anchor-placement="center-bottom" data-aos="fade-in" data-aos-duration="1500" class="text-center col-xs-12">
    <?php echo get_theme_mod('white_section_heading', 'Existem muitos sonhos para serem viabilizados'); ?></h1>
   <h3 data-aos-anchor-placement="center-bottom" data-aos="fade-in" data-aos-duration="1500"
    class="text-center col-xs-12">
@@ -153,8 +152,8 @@
  <div class="container align-center-div padtop-5 text-center center-block">
 
   <div data-aos-anchor-placement="center-bottom" data-aos="zoom-in" data-aos-duration="700"
-   class="box-content col-md-3 col-sm-6 col-xs-12">
-   <i class="<?php echo get_theme_mod('white_section_1_icon', 'fa fa-4x fa-user'); ?>"></i>
+   class="box-content col-lg-3 col-md-3 col-sm-12">
+   <i class="<?php echo get_theme_mod('white_section_1_icon', 'fas fa-4x fa-user'); ?>"></i>
    <h4><?php echo get_theme_mod('white_section_1', 'JOVEM'); ?></h4>
    <div><hr data-aos="flip-right" data-aos-duration="3000" data-aos-delay="100"></div>
 
@@ -164,7 +163,7 @@
   </div>
 
   <div data-aos-anchor-placement="center-bottom" data-aos="zoom-in" data-aos-duration="1000"
-   class="box-content col-md-3 col-sm-6 col-xs-12">
+   class="box-content col-md-3 col-sm-12 col-12">
    <i class="<?php echo get_theme_mod('white_section_2_icon', 'fa fa-4x fa-users') ?>"></i>
    <h4><?php echo get_theme_mod('white_section_2', 'FAMÍLIA'); ?></h4>
    <hr>
@@ -185,7 +184,7 @@
 
   <div data-aos-anchor-placement="center-bottom" data-aos="zoom-in" data-aos-duration="1600"
    class="box-content col-md-3 col-sm-6 col-xs-12">
-   <i class="<?php echo get_theme_mod('white_section_4_icon', 'fa fa-4x fa-building'); ?>"></i>
+   <i class="<?php echo get_theme_mod('white_section_4_icon', 'fas fa-4x fa-building'); ?>"></i>
    <h4><?php echo get_theme_mod('white_section_4', 'EMPRESAS'); ?></h4>
    <hr>
    <h6>

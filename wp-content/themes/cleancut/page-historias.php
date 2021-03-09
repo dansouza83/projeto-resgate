@@ -1,6 +1,7 @@
 <?php
 get_header();
-get_template_part('template-parts/header/showcase'); ?>
+get_template_part('template-parts/header/showcase');
+?>
 
 <script>
 	$('#accordion').on('shown.bs.collapse', function() {
@@ -25,7 +26,7 @@ get_template_part('template-parts/header/showcase'); ?>
 						</h4>
 
 					</div>
-					<div id="collapseOne" class="panel-collapse collapse in">
+					<div id="collapseOne" class="panel-collapse collapse">
 						<div class="panel-body">
 							<h3>Os Jovens que estão mudando seu destino</h3>
 							<?php $i = 0; // Counter

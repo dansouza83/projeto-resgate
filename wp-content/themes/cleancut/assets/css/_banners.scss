@@ -1,0 +1,33 @@
+@import './variables';
+.banner {
+	padding: 100px 0;
+	color: $textWhite;
+	background: url(assets/images/banner.jpg) no-repeat center center;
+	background-size: cover;
+	animation-duration: 4s;
+	animation-delay: 2s;
+}
+
+.banner {
+  h2{
+   margin: 0;
+   text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.6);
+   font-size: 3em;
+   color: #333;
+   background: $whiteYellowBackground;
+   padding: 5%;
+  }
+}
+
+.banner-social-buttons {
+	float: right;
+	margin-top: 9px;
+	padding-top: 3%;
+	animation-duration: 2s;
+	animation-delay: 1s;
+}
+
+.banner-heading {
+	animation-delay: 1s;
+	animation-duration: 3s;
+}

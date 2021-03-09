@@ -1,0 +1,13 @@
+@import './variables';
+
+.linkedin {
+ img {
+ background-size: contain;
+	max-width: 100%;
+	height: auto;
+ }
+	div{
+		max-width: 33%;
+		float: left;
+	}
+}

@@ -1,0 +1,21 @@
+@import './variables';
+
+.box-content {
+	background: transparent;
+	border: 1px solid #f5c50b;
+	border-radius: 200px;
+	height: 250px;
+	font-weight: bold;
+	width: 250px;
+	display: table;
+	margin: 20px auto;
+	align-items: center;
+	margin-left: 7px;
+	margin-right: 7px;
+	padding: 29px;
+}
+
+.box-content h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,19 @@
+@import './variables';
+.section-apoiadores,
+.section-beneficiarios {
+	padding: 5em 5em;
+	background-color: $sectionWhiteBackground;
+}
+
+.section-a {
+	padding: 50px 0;
+	background-color: $textGray;
+}
+.section-b {
+	padding: 50px 0;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+}
+.section-heading {
+	margin-bottom: 10px;
+}

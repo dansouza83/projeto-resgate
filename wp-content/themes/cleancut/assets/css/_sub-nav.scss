@@ -1,0 +1,18 @@
+.sub-nav ul {
+	float: right;
+	padding-top: 10px;
+	list-style: none;
+}
+
+.sub-nav li {
+	float: left;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-right: 1px #ccc solid;
+}
+
+.sub-nav li:last-child {
+	border: 0;
+}
+
+

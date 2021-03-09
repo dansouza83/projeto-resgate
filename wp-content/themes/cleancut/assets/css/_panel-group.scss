@@ -1,0 +1,15 @@
+@import './variables';
+
+.panel-group h3,
+.panel-group h4,
+.panel-group div h5 {
+	text-align: center;
+}
+
+.panel-group .row {
+	padding: 10% 0%;
+}
+
+.panel-group {
+	margin-bottom: 0px !important;
+}

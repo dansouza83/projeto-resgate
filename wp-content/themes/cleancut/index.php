@@ -1,54 +1,50 @@
 <?php get_header(); ?>
-<section class="row title-bar">
- <div class="container">
-  <div class="col-md-4">
-   <h1>Blog</h1>
-  </div>
-  <div class="col-md-8">
-   <?php if (is_active_sidebar('subnav')) : ?>
-    <?php dynamic_sidebar('subnav'); ?>
-   <?php endif; ?>
-  </div>
- </div>
-</section>
+
+<?php echo get_template_part('template-parts/header/showcase-blog'); ?>
+
 
 <?php
 $i = 0;
-?>
 
-<?php
-while (have_posts()) : the_post(); ?>
- <?php
- $i++;
- if ($i % 2 != 0) {
-  // Odd Post
-  $section_class = 'section-a';
-  $left_class = 'col-lg-5 col-sm-6';
-  $right_class = 'col-lg-6 col-sm-6';
-  $img_class = 'img-responsive';
- } else {
-  // Even Post
-  $section_class = 'section-b';
-  $left_class = 'col-lg-5 col-sm-push-7 col-sm-6';
-  $right_class = 'col-lg-6 col-sm-pull-6 col-sm-6';
-  $img_class = 'img-responsive';
- }
- ?>
+$the_query = new WP_Query(array(
+	'category_name' => 'blog',
+	'post_status' => 'publish',
+	'posts_per_page' => 5,
+));
 
- <?php
- // Aside Content
- if (has_post_format($format, $post_id) && get_post_format($post_id) == 'aside') : ?>
-<?php require get_template_directory() . './content-aside.php'; ?>
+if ($the_query->have_posts()) :
+	while ($the_query->have_posts()) : $the_query->the_post();
+		$i++;
+		if ($i % 2 != 0) {
+			// Odd Post
+			$section_class = 'section-a';
+			$left_class = 'col-lg-5 col-sm-6';
+			$right_class = 'col-lg-6 col-sm-6';
+			$img_class = 'img-responsive';
+		} else {
+			// Even Post
+			$section_class = 'section-b';
+			$left_class = 'col-lg-5 col-sm-push-7 col-sm-6';
+			$right_class = 'col-lg-6 col-sm-pull-6 col-sm-6';
+			$img_class = 'img-responsive';
+		}
 
-<?php
-// Gallery Content
-elseif(has_post_format($format, $post_id) && get_post_format($post_id) == 'gallery') : ?>
-<?php require get_template_directory() . './content-gallery.php' ?>
+		// Aside Content
+		if (has_post_format($format, $post_id) && get_post_format($post_id) == 'aside') :
+			require get_template_directory() . './content-aside.php';
 
-<?php else : ?>
-  <?php // Standard Content
-  require get_template_directory() . './content.php'; ?>
- <?php endif; ?>
-<?php endwhile; ?>
+		// Gallery Content
+		elseif (has_post_format($format, $post_id) && get_post_format($post_id) == 'gallery') :
+			require get_template_directory() . './content-gallery.php';
 
-<?php get_footer(); ?>
+			else :
+			// Standard Content
+			require get_template_directory() . './content.php';
+		endif;
+	endwhile;
+
+	wp_reset_postdata();
+
+endif;
+get_footer(); ?>
+

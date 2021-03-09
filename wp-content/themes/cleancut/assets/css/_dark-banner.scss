@@ -1,0 +1,16 @@
+@import './variables';
+
+.dark_banner {
+	min-height: 200px;
+	max-height: 300px;
+	color: $textWhite;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	vertical-align: middle;
+}
+
+.dark_banner-heading {
+	align-items: center;
+	max-height: 300px;
+	margin: 5% 0px;
+}

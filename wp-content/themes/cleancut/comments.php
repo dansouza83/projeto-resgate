@@ -1,5 +1,5 @@
 <div class="comments">
- <h2>Comments</h2>
+ <h2>Comentários</h2>
  <?php
  $args = array(
   'walker'            => null,
@@ -8,7 +8,7 @@
   'callback'          => null,
   'end-callback'      => null,
   'type'              => 'all',
-  'reply_text'        => 'Reply',
+  'reply_text'        => 'Responder Comentário',
   'page'              => '',
   'per_page'          => '',
   'avatar_size'       => 80,
@@ -23,10 +23,12 @@
 
  <?php
 $form_args = array(
- 'label_submit'        => 'Send',
- 'title_replay'        => 'Write a Reply or Comment',
+ 'label_submit'        => 'Enviar',
+ 'title_replay'        => 'Escreva aqui algum comentário sobre este post',
  'comment_notes_after' => '',
- 'comment_field'       => '<p class="comment-form-comment"><label for="comment">' . _x('Comment', 'noun') . '</label><br /><textarea id="comment" name="comment" rows="8" aria-required="true"></textarea></p>',
+ 'comment_field'       => '<p class="comment-form-comment"><div class="form-group"><label for="comment">' . _x( 'Mensagem', 'noun' ) .
+	'</label><textarea id="comment" name="comment" class="form-control"  rows="8" aria-required="true">' .
+	'</textarea></div></p>',
 
 );
 comment_form($form_args);

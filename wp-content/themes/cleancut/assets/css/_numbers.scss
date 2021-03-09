@@ -1,0 +1,23 @@
+@import './variables';
+
+.numbers {
+	background-size: cover !important;
+	padding-top: 7em !important;
+}
+.numbers-content,
+.numbers h1,
+.numbers h3,
+.white-section {
+	text-align: center;
+}
+.white-section {
+	background-color: $WhiteSectionBackground !important;
+}
+.numbers-content {
+	padding: 32px 17px;
+}
+.numbers .fa ,
+.numbers .fas,
+.box-content i {
+	color: $numbersIconsColor;
+}

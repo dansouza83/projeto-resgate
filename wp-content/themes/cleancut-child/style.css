@@ -1,0 +1,13 @@
+/*
+Theme Name: Child Theme CleantCut Projeto Resgate
+Theme URI: https://github.com/dansouza83/projeto-resgate
+Template: cleancut
+Author: Daniel Silva de Souza
+Author URI: https://dansouza.site
+Description: A educational Wordpress Theme
+*/
+
+/* @import "./styles.css"; */
+
+@import "../cleancut/style.css";
+

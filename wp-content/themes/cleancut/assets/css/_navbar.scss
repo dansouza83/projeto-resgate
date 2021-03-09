@@ -1,0 +1,44 @@
+@import './variables';
+
+/* Nav / Navbar Styles
+===================================*/
+.navbar {
+	background-image: linear-gradient(
+		to bottom right,
+		$bgYellow 7%,
+		transparent 50%,
+		transparent
+	);
+	background-color: transparent;
+	border-bottom: none;
+	padding: 30px 0;
+	transition-duration: 0.6s;
+	text-transform: uppercase;
+	color: $textWhite;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+	color: $navbar_li;
+}
+
+/* jQuery Styles
+===================================*/
+.navbar-scroll {
+	background: $navbarScrollBackground;
+	padding: 0;
+	transition-duration: 0.6s;
+}
+
+.nav-dropdown-scroll {
+	background: $navDropdownScrollBackground;
+}
+
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+	max-height: 340px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+ background-color: $bgWhite;
+}

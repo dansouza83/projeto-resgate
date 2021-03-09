@@ -1,0 +1,77 @@
+@import './variables';
+
+.showcase h1,
+.showcase,
+.showcase-como-funciona {
+ color:$textWhite;
+}
+.showcase ul {
+list-style-type:none;
+}
+
+.showcase,
+.showcase-como-funciona,
+.showcase-contato {
+	text-align: center;
+	animation-duration: 3s;
+	color: $textWhite;
+	height: 100vh;
+}
+
+.showcase-quero-colaborar,
+.showcase-contato {
+	max-height: 70vh !important;
+}
+
+.showcase h1,
+.showcase-quero-colaborar,
+.showcase-como-funciona h1 {
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	font-size: 5em;
+}
+
+.showcase-contato {
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.showcase p.lead,
+.showcase-quero-colaborar,
+.showcase-como-funciona p.lead {
+	text-shadow: $textShadow;
+	font-size: 2em;
+	border-bottom: #ccc solid 1px;
+	padding-bottom: 15px;
+}
+.showcase-como-funciona p {
+	text-shadow: $textShadow;
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+
+.showcase a.btn,
+.showcase-como-funciona a.btn {
+	margin-right: 20px;
+}
+
+.showcase-content,
+.showcase-como-funciona-content {
+	width: 100%;
+	margin: auto;
+	margin-top: 13em;
+}
+
+.showcase-content small,
+.showcase-como-funciona-content small {
+	font-size: 100% !important;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.showcase-think-tank-criando-o-futuro {
+	min-height: 475px;
+	min-width: 100%;
+	height: auto;
+}
+.showcase-criando-o-futuro-buttons {
+	padding: 90px 0px 0px 100px;
+}
+

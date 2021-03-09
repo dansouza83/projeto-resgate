@@ -1,0 +1,44 @@
+@import './variables';
+
+.boxed-content.left-aligned {
+	text-align: left;
+}
+
+.boxed-content {
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.boxed-content.left-aligned i {
+	float: left;
+	margin-right: 10px;
+	font-size: 2em;
+}
+
+.boxed-content.left-boxed-icon i {
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	padding: 10px;
+	width: 60px;
+	height: 60px;
+	background: #406da4;
+	text-align: center;
+	line-height: 40px;
+}
+
+.boxed-content .boxed-content-title {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.boxed-content.left-aligned .boxed-content-title {
+	margin-bottom: 10px;
+	line-height: 28px;
+	font-weight: normal;
+}
+
+.boxed-content.left-boxed-icon .boxed-content-title,
+.boxed-content.left-boxed-icon p {
+	padding-left: 80px;
+}
