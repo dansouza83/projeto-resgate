@@ -1,14 +1,14 @@
 .arrow{text-align:center;margin:8% 0;color:#fff}
 .bounce{-webkit-animation:bounce 3s infinite;animation:bounce 3s infinite}
 .banner{padding:100px 0;color:#fff;background:url(assets/images/banner.jpg) no-repeat center center;background-size:cover;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-delay:2s;animation-delay:2s}
-.banner h2{margin:0;text-shadow:2px 2px 3px rgba(255,255,255,0.6);font-size:3em;color:#333;background:#e4d36ed4;padding:5%}
+.banner h2{margin:0;text-shadow:2px 2px 3px rgba(0,0,0,0.6);font-size:3em;color:#333;background:#e4d36ed4;padding:5%}
 .banner-social-buttons{float:right;margin-top:9px;padding-top:3%;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-delay:1s;animation-delay:1s}
 .banner-heading{-webkit-animation-delay:1s;animation-delay:1s;-webkit-animation-duration:3s;animation-duration:3s}
 .meta{margin-bottom:10px;font-weight:bold;border-top:#ccc solid 1px;border-bottom:#ccc solid 1px;padding:5px}
 .excerpt p{font-size:18px;font-weight:400}
-#respond{background:#fbfbfb;padding:0 10px 0 10px}
+#respond{background:#f8f8f8;padding:0 10px 0 10px}
 ul.postsbycategory{list-style:none}
-#respond input[type="text"],textarea{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;outline:0;padding:3px 0 3px 3px;margin:5px 1px 3px 0;border:1px solid #ddd}
+#respond input[type="text"],textarea{outline:0;padding:3px 0 3px 3px;margin:5px 1px 3px 0;border:1px solid #ddd}
 #respond input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,textarea:focus{-webkit-box-shadow:0 0 5px #51cbee;box-shadow:0 0 5px #51cbee;margin:5px 1px 3px 0;border:2px solid #51cbee}
 #author,#email{font-family:"Open Sans","Droid Sans",Arial;font-style:italic;color:#1d1d1d;letter-spacing:.1em}
 #url{color:#1d1d1d;font-family:"Luicida Console","Courier New","Courier",monospace}
@@ -54,13 +54,14 @@ hr{max-width:70%;margin-top:15px;margin-bottom:15px}
 .title-bar h1{margin:0;padding:0}
 .page{padding:20px 0}
 .bg-dark{background:#191919 !important}
-.bg-primary{background-color:#3b6a37}
+.bg-primary{background-color:#366432}
 .space{height:10%}
 .current_page_item,.current-cat,.diferenciais h5{font-weight:bold}
 .row{margin-right:0;margin-left:0}
 iframe{display:block;width:100%;height:80vh;border:0;overflow-y:auto;overflow-x:hidden;margin-top:11em}
 .bg-dark{background:#191919}
 .shadowUp{-webkit-box-shadow:0 0 9px #00000026;box-shadow:0 0 9px #00000026}
+.fa{color:#fff}
 footer{padding:50px 0;background-color:#f8f8f8}
 .linkedin img{background-size:contain;max-width:100%;height:auto}
 .linkedin div{max-width:33%;float:left}
@@ -76,7 +77,7 @@ footer{padding:50px 0;background-color:#f8f8f8}
 .menu-header a,.menu-header a:visited{color:#fff;display:block;padding:0 20px;text-shadow:1px 1px 8px #ffffff6b}
 .menu-header-scroll a,.menu-header-scroll a:visited{color:#366432}
 .menu-header li ul{height:auto;left:-999em;line-height:30px;margin:0;padding:0;position:absolute;width:222px;font-size:15px}
-.menu-header li li{-moz-background-clip:border;-moz-background-inline-policy:continuous;-moz-background-origin:padding;width:220px}
+.menu-header li li{width:220px}
 .menu-header li li a,.menu-header li li a:visited{background:#f8f8f8;color:#366432;font-size:.8em;font-weight:normal}
 .menu-header li li a:hover{opacity:.6;-webkit-transition:.6s;transition:.6s}
 .menu-header li li a:hover{color:#f5c50b;background:#366432;opacity:1}
@@ -93,10 +94,9 @@ body:not(.modal-open){padding-right:0 !important}
 .navbar-scroll{background:#fff;padding:0;-webkit-transition-duration:.6s;transition-duration:.6s}
 .nav-dropdown-scroll{background:#f8f8f8}
 .navbar-fixed-top .navbar-collapse,.navbar-fixed-bottom .navbar-collapse{max-height:340px}
-.navbar-inverse .navbar-toggle .icon-bar{background-color:#fff}
 .numbers{background-size:cover !important;padding-top:7em !important}
-.numbers-content,.numbers h1,.numbers h3,.white-section{text-align:center}
-.white-section{background-color:#f8f8f8 !important}
+.numbers-content,.numbers h1,.numbers h3{text-align:center}
+.white-section{background-color:#fff !important}
 .numbers-content{padding:32px 17px}
 .numbers .fa,.numbers .fas,.box-content i{color:#f5c50b}
 .padtop-2{padding-top:2%}
@@ -147,6 +147,7 @@ body:not(.modal-open){padding-right:0 !important}
 .sub-nav li:last-child{border:0}
 .box-content{background:transparent;border:1px solid #f5c50b;border-radius:200px;height:250px;font-weight:bold;width:250px;display:table;margin:20px auto;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-left:7px;margin-right:7px;padding:29px}
 .box-content h4{margin-top:10px;margin-bottom:10px}
+.white-section{text-align:center}
 @media(min-width:576px) and (max-width:767.98px){.align-center-div{padding:0 25% 0 25%}
 .como-funciona p{text-align:justify}
 .showcase-como-funciona p{font-size:14px}
@@ -156,7 +157,6 @@ body:not(.modal-open){padding-right:0 !important}
 .numbers{background-size:cover;padding-top:7em}
 .call-to-action-subtitle{margin-top:45px}
 .navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form{border-color:transparent;background:#f5c50b}
-.navbar-toggle{margin-right:121px !important}
 }@media(min-width:768px) and (max-width:991.98px){.white-section .box-content{width:150px}
 .como-funciona p,.como-funciona b{text-align:justify}
 .showcase-como-funciona p{font-size:16px}
@@ -187,10 +187,12 @@ body:not(.modal-open){padding-right:0 !important}
 .space{display:none}
 .numbers h4{color:#fff}
 .navbar,.navbar-fixed-top .navbar-collapse{background-color:#f5c50b !important;color:#f5c50b}
-.navbar-toggle{position:relative;float:right;padding:9px 10px;margin-top:14px;margin-right:106px;margin-bottom:8px}
+.navbar-toggle{position:relative;float:right;padding:9px 10px;margin-top:17px;margin-right:27px;margin-bottom:8px}
 .navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form{border-color:transparent !important}
 .menu-header li{float:none !important}
 .menu-header a,.menu-header a:visited{color:#366432}
+.navbar-scroll{top:20px}
+.menu-header li{font-size:18px}
 }@-webkit-keyframes bounce{0%,20%,50%,80%,100%{-webkit-transform:translateY(0);transform:translateY(0)}
 40%{-webkit-transform:translateY(-30px);transform:translateY(-30px)}
 60%{-webkit-transform:translateY(-15px);transform:translateY(-15px)}

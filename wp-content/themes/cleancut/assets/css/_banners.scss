@@ -1,7 +1,7 @@
 @import './variables';
 .banner {
 	padding: 100px 0;
-	color: $textWhite;
+	color: $colorWhite;
 	background: url(assets/images/banner.jpg) no-repeat center center;
 	background-size: cover;
 	animation-duration: 4s;
@@ -11,10 +11,10 @@
 .banner {
   h2{
    margin: 0;
-   text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.6);
+   text-shadow: $textShadow2;
    font-size: 3em;
    color: #333;
-   background: $whiteYellowBackground;
+   background: $bannerH2;
    padding: 5%;
   }
 }

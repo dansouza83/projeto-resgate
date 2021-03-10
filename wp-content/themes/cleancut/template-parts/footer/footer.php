@@ -31,6 +31,7 @@
 					);
 					?>
 				</div>
+			</div>
 
 			</div>
 			<!-- IMAGEM QUE VALEM A PENA  -->

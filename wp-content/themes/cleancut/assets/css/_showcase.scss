@@ -3,7 +3,7 @@
 .showcase h1,
 .showcase,
 .showcase-como-funciona {
- color:$textWhite;
+ color:$colorWhite;
 }
 .showcase ul {
 list-style-type:none;
@@ -14,7 +14,7 @@ list-style-type:none;
 .showcase-contato {
 	text-align: center;
 	animation-duration: 3s;
-	color: $textWhite;
+	color: $colorWhite;
 	height: 100vh;
 }
 
@@ -26,12 +26,12 @@ list-style-type:none;
 .showcase h1,
 .showcase-quero-colaborar,
 .showcase-como-funciona h1 {
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	text-shadow: $textShadow2;
 	font-size: 5em;
 }
 
 .showcase-contato {
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	text-shadow: $textShadow2;
 }
 
 .showcase p.lead,
@@ -63,7 +63,7 @@ list-style-type:none;
 .showcase-content small,
 .showcase-como-funciona-content small {
 	font-size: 100% !important;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+	text-shadow: $textShadow;
 }
 
 .showcase-think-tank-criando-o-futuro {

@@ -60,7 +60,7 @@
 
 .banner h2 {
   margin: 0;
-  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.6);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 3em;
   color: #333;
   background: #e4d36ed4;
@@ -98,7 +98,7 @@
 }
 
 #respond {
-  background: #fbfbfb;
+  background: #f8f8f8;
   padding: 0 10px 0 10px;
 }
 
@@ -108,10 +108,6 @@ ul.postsbycategory {
 
 #respond input[type="text"],
 textarea {
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   outline: none;
   padding: 3px 0px 3px 3px;
   margin: 5px 1px 3px 0px;
@@ -183,7 +179,7 @@ textarea:focus {
 }
 
 .bottom-menu {
-  background: #f4f4f4;
+  background: #f8f8f8;
   padding: 5px;
   border-bottom: 1px #ccc solid;
   border-top: 1px #ccc solid;
@@ -316,8 +312,8 @@ textarea:focus {
 }
 
 body {
-  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(47%, #f5c519), to(#ffdf6d));
-  background-image: linear-gradient(to bottom right, #f5c519 47%, #ffdf6d);
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(47%, #f5c50b), to(#ffdf6d));
+  background-image: linear-gradient(to bottom right, #f5c50b 47%, #ffdf6d);
 }
 
 body,
@@ -410,7 +406,7 @@ hr {
 }
 
 .bg-primary {
-  background-color: #3b6a37;
+  background-color: #366432;
 }
 
 .space {
@@ -445,6 +441,10 @@ iframe {
 .shadowUp {
   -webkit-box-shadow: 0px 0px 9px #00000026;
           box-shadow: 0px 0px 9px #00000026;
+}
+
+.fa {
+  color: #ffffff;
 }
 
 footer {
@@ -534,18 +534,13 @@ footer {
   font-size: 15px;
 }
 
-.menu-header ul {
-  -webkit-box-shadow: 2px 2px 10px #00000054;
-          box-shadow: 2px 2px 10px #00000054;
-}
-
 .menu-header li li {
   width: 220px;
 }
 
 .menu-header li li a,
 .menu-header li li a:visited {
-  background: #f4f4f4;
+  background: #f8f8f8;
   color: #366432;
   font-size: 0.8em;
   font-weight: normal;
@@ -633,25 +628,17 @@ body:not(.modal-open) {
 .navbar-scroll {
   background: #ffffff;
   padding: 0;
-  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
   -webkit-transition-duration: 0.6s;
           transition-duration: 0.6s;
 }
 
 .nav-dropdown-scroll {
-  background: #e7eaea;
-  -webkit-box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
+  background: #f8f8f8;
 }
 
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px;
-}
-
-.navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #333;
 }
 
 .numbers {
@@ -661,13 +648,12 @@ body:not(.modal-open) {
 
 .numbers-content,
 .numbers h1,
-.numbers h3,
-.white-section {
+.numbers h3 {
   text-align: center;
 }
 
 .white-section {
-  background-color: #f8f8f8 !important;
+  background-color: #ffffff !important;
 }
 
 .numbers-content {
@@ -852,8 +838,18 @@ body:not(.modal-open) {
     color: #ffffff;
   }
   .navbar,
-  .navbar-fixed-top .navbar-collapse {
-    background-color: #f5c519 !important;
+  .navbar-fixed-top
+.navbar-collapse {
+    background-color: #f5c50b !important;
+    color: #f5c50b;
+  }
+  .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 17px;
+    margin-right: 27px;
+    margin-bottom: 8px;
   }
   .navbar-inverse .navbar-collapse,
   .navbar-inverse .navbar-form {
@@ -861,7 +857,15 @@ body:not(.modal-open) {
   }
   .menu-header li {
     float: none !important;
-    text-align: center !important;
+  }
+  .menu-header a, .menu-header a:visited {
+    color: #366432;
+  }
+  .navbar-scroll {
+    top: 20px;
+  }
+  .menu-header li {
+    font-size: 18px;
   }
 }
 
@@ -897,10 +901,7 @@ body:not(.modal-open) {
   .navbar-inverse .navbar-collapse,
   .navbar-inverse .navbar-form {
     border-color: transparent;
-    background: #e5b70d;
-  }
-  .navbar-toggle {
-    margin-right: 121px !important;
+    background: #f5c50b;
   }
 }
 
@@ -1113,5 +1114,9 @@ body:not(.modal-open) {
 .box-content h4 {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.white-section {
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */

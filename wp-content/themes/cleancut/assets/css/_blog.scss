@@ -17,7 +17,7 @@
  }
 
 #respond {
-	background: #fbfbfb;
+	background: $bgGray;
 	padding: 0 10px 0 10px;
 }
 
@@ -25,13 +25,12 @@ ul.postsbycategory {
 	list-style: none;
 }
 
-
 #respond input[type="text"],
 textarea {
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
+	// -webkit-transition: all 0.3s ease-in-out;
+	// -moz-transition: all 0.3s ease-in-out;
+	// -ms-transition: all 0.3s ease-in-out;
+	// -o-transition: all 0.3s ease-in-out;
 	outline: none;
 	padding: 3px 0px 3px 3px;
 	margin: 5px 1px 3px 0px;
@@ -46,6 +45,7 @@ textarea:focus {
 	margin: 5px 1px 3px 0px;
 	border: 2px solid rgba(81, 203, 238, 1);
 }
+
 #author,
 #email {
 	font-family: "Open Sans", "Droid Sans", Arial;

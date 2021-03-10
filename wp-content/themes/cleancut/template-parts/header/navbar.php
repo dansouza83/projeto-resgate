@@ -17,7 +17,7 @@
  					</a>
  				</div>
  			</div>
- 			<div id="navbar" class="navbar-collapse collapse">
+ 			<div data-aos="fade-down" data-aos-duration="2000" data-aos-delay="500" id="navbar" class="navbar-collapse collapse">
  				<?php
 					wp_nav_menu(
 						array(

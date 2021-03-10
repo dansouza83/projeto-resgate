@@ -37,7 +37,7 @@ a:hover{
 .showcase h1,
 .showcase,
 .showcase-como-funciona {
-	color: $headersH1H3;
+	color: $colorWhite;
 }
 
 .float-right {
@@ -90,11 +90,11 @@ hr {
 }
 
 .bg-dark {
-	background: #191919 !important;
+	background: $colorDark !important;
 }
 
 .bg-primary {
-	background-color: #3b6a37;
+	background-color: $secondary;
 }
 
 .space {
@@ -128,4 +128,8 @@ iframe {
 
 .shadowUp {
 	box-shadow: 0px 0px 9px #00000026;
+}
+
+.fa {
+	color: $colorWhite;
 }

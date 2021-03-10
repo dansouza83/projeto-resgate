@@ -6,12 +6,11 @@
 }
 .numbers-content,
 .numbers h1,
-.numbers h3,
-.white-section {
+.numbers h3{
 	text-align: center;
 }
 .white-section {
-	background-color: $WhiteSectionBackground !important;
+	background-color: $colorWhite !important;
 }
 .numbers-content {
 	padding: 32px 17px;
@@ -19,5 +18,5 @@
 .numbers .fa ,
 .numbers .fas,
 .box-content i {
-	color: $numbersIconsColor;
+	color: $primary;
 }
