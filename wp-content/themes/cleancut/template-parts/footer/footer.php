@@ -33,9 +33,31 @@
 				</div>
 			</div>
 
+			<div class="col-md-4">
+						<ul class="row">
+								<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+										<img class="img-responsive" src="1.jpg">
+								</li>
+								<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+										<img class="img-responsive" src="2.jpg">
+								</li>
+								<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+										<img class="img-responsive" src="3.jpg">
+								</li>
+								<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+										<img class="img-responsive" src="4.jpg">
+								</li>
+								<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+										<img class="img-responsive" src="5.jpg">
+								</li>
+								<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+										<img class="img-responsive" src="6.jpg">
+								</li>
+						</ul>
+			</div>
 			</div>
 			<!-- IMAGEM QUE VALEM A PENA  -->
-			<div class="col-md-4">
+
 
 			<p class="copyright text-muted small">Copyright &copy; Projeto Resgate Theme 2021. All Rights Reserved</p>
 
